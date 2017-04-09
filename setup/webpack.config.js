@@ -219,7 +219,8 @@ module.exports.resolve = {
     extensions: ['*', '.js', '.jsx', '.vue'],
 
     alias: {
-        'vue$': 'vue/dist/vue.common.js'
+        'vue$': 'vue/dist/vue.common.js',
+        '@': Mix.Paths.root() + '/resources/assets/js'
     }
 };
 
